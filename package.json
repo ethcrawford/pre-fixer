@@ -1,0 +1,31 @@
+{
+  "name": "pre-fixer",
+  "description": "Gulp configuration with autoprefixer and postcss-flexbugs-fixes.",
+  "version": "1.0.0",
+  "keywords": [
+    "autoprefixer",
+    "flexbugs",
+    "gulp"
+  ],
+  "homepage": "https://github.com/ethcrawford/pre-fixer#readme",
+  "bugs": {
+    "url": "https://github.com/ethcrawford/pre-fixer/issues",
+    "email": "ethcrawford@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethcrawford/pre-fixer.git"
+  },
+  "author": "Ethan Crawford <ethcrawford@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0"
+  }
+}
